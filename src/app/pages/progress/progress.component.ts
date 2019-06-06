@@ -12,9 +12,9 @@ export class ProgressComponent implements OnInit {
   ngOnInit() {
   }
   valores(valor) {
-   if(this.progreso >0 && this.progreso <100) {
+  
     this.progreso = this.progreso + valor
-   }
+  
     
   }
 
