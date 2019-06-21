@@ -8,7 +8,9 @@ import { SharedModule } from '../shared/shared.module';
 import { FormsModule} from '@angular/forms'
 import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
+ 
 
+import { ChartsModule } from 'ng2-charts';
 
 
 
@@ -32,6 +34,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
     SharedModule,
     PAGES_ROUTES,
     FormsModule,
+    ChartsModule,
  ]
  
 })
