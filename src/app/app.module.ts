@@ -20,6 +20,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    
   
   ],
   imports: [
@@ -28,7 +29,7 @@ import { FormsModule } from '@angular/forms';
     APP_ROUTES,
     PagesModule,
     FormsModule,
-   
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,6 +11,8 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
  
 
 import { ChartsModule } from 'ng2-charts';
+import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.component';
+
 
 
 
@@ -22,13 +24,15 @@ import { ChartsModule } from 'ng2-charts';
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-   IncrementadorComponent
+   IncrementadorComponent,
+   GraficaDonaComponent
   ],
  
  exports: [
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
+   
  ],
  imports: [
     SharedModule,
