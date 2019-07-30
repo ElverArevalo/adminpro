@@ -41,7 +41,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
     PAGES_ROUTES,
     FormsModule,
     ChartsModule,
- ]
+ ],
+ providers: [],
  
 })
 export class PagesModule { }
