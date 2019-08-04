@@ -4,6 +4,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -17,6 +19,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
         {path:'progress', component: ProgressComponent},
         {path:'graficas1', component: Graficas1Component},
         {path:'accout', component: AccoutSettingsComponent},
+        {path:'promesa', component: PromesasComponent},
+        {path:'rxjs', component: RxjsComponent},
         {path:'', redirectTo: '/dashboard', pathMatch: 'full'},
        ]
       },
