@@ -15,12 +15,12 @@ import { RxjsComponent } from './rxjs/rxjs.component';
       path:'',
        component: PagesComponent,
        children: [
-        {path:'dashboard', component: DashboardComponent},
-        {path:'progress', component: ProgressComponent},
-        {path:'graficas1', component: Graficas1Component},
-        {path:'accout', component: AccoutSettingsComponent},
-        {path:'promesa', component: PromesasComponent},
-        {path:'rxjs', component: RxjsComponent},
+        {path:'dashboard', component: DashboardComponent, data: {titulo:'Dashboard'}},
+        {path:'progress', component: ProgressComponent, data: {titulo:'Progress'}},
+        {path:'graficas1', component: Graficas1Component, data: {titulo:'Graficas'}},
+        {path:'accout', component: AccoutSettingsComponent, data: {titulo:'Configuracion Tema'}},
+        {path:'promesa', component: PromesasComponent, data: {titulo:'Promesa'}},
+        {path:'rxjs', component: RxjsComponent, data: {titulo:'RxJs'}},
         {path:'', redirectTo: '/dashboard', pathMatch: 'full'},
        ]
       },
